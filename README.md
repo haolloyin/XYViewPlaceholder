@@ -30,10 +30,8 @@ Just drag `XYViewPlaceholder.swift` file to your Swfit project.
 yourView.showPlaceholder()
 yourView.showPlaceholderWith(lineColor: UIColor)
 yourView.showPlaceholderWith(lineColor: UIColor, backColor: UIColor) {
-yourView.showPlaceholderWith(lineColor: UIColor, backColor: UIColor, arrowSize: CGFloat)yourView.showPlaceholderWith(lineColor: UIColor, backColor: UIColor, arrowSize: CGFloat, lineWidth: CGFloat) {
-        let config = XYViewPlaceholderConfig.defaultConfig
-        self.showPlaceholderWith(lineColor, backColor: backColor, arrowSize: arrowSize, lineWidth: lineWidth,
-            frameWidth: config.frameWidth, frameColor: config.frameColor)
+yourView.showPlaceholderWith(lineColor: UIColor, backColor: UIColor, arrowSize: CGFloat)
+yourView.showPlaceholderWith(lineColor: UIColor, backColor: UIColor, arrowSize: CGFloat, lineWidth: CGFloat)
 yourView.showPlaceholderWith(lineColor: UIColor, backColor: UIColor, arrowSize: CGFloat, lineWidth: CGFloat, frameWidth: CGFloat, frameColor: UIColor)
 
 // show all sub views
