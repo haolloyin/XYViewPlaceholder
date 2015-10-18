@@ -29,7 +29,7 @@ Just drag `XYViewPlaceholder.swift` file to your Swfit project.
 // show
 yourView.showPlaceholder()
 yourView.showPlaceholderWith(lineColor: UIColor)
-yourView.showPlaceholderWith(lineColor: UIColor, backColor: UIColor) {
+yourView.showPlaceholderWith(lineColor: UIColor, backColor: UIColor)
 yourView.showPlaceholderWith(lineColor: UIColor, backColor: UIColor, arrowSize: CGFloat)
 yourView.showPlaceholderWith(lineColor: UIColor, backColor: UIColor, arrowSize: CGFloat, lineWidth: CGFloat)
 yourView.showPlaceholderWith(lineColor: UIColor, backColor: UIColor, arrowSize: CGFloat, lineWidth: CGFloat, frameWidth: CGFloat, frameColor: UIColor)
