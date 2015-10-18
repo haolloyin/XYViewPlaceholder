@@ -24,15 +24,23 @@ Just drag `XYViewPlaceholder.swift` file to your Swfit project.
 ### Usage
 ----
 
+Simply write one line code.
+
+```Swift
+
+yourView.showPlaceholder()
+```
+
+or customize yourself.
+
 ```Swift
 
 // show
-yourView.showPlaceholder()
-yourView.showPlaceholderWith(lineColor: UIColor)
-yourView.showPlaceholderWith(lineColor: UIColor, backColor: UIColor)
-yourView.showPlaceholderWith(lineColor: UIColor, backColor: UIColor, arrowSize: CGFloat)
-yourView.showPlaceholderWith(lineColor: UIColor, backColor: UIColor, arrowSize: CGFloat, lineWidth: CGFloat)
-yourView.showPlaceholderWith(lineColor: UIColor, backColor: UIColor, arrowSize: CGFloat, lineWidth: CGFloat, frameWidth: CGFloat, frameColor: UIColor)
+showPlaceholderWith(lineColor: UIColor)
+showPlaceholderWith(lineColor: UIColor, backColor: UIColor)
+showPlaceholderWith(lineColor: UIColor, backColor: UIColor, arrowSize: CGFloat)
+showPlaceholderWith(lineColor: UIColor, backColor: UIColor, arrowSize: CGFloat, lineWidth: CGFloat)
+showPlaceholderWith(lineColor: UIColor, backColor: UIColor, arrowSize: CGFloat, lineWidth: CGFloat, frameWidth: CGFloat, frameColor: UIColor)
 
 // show all sub views
 yourView.showPlaceholderWithAllSubviews()    
