@@ -61,7 +61,8 @@ class ViewController: UIViewController {
         
         if self.placeholderVisible {
             self.placeholderVisible = false
-            self.view.removePlaceholderWithAllSubviews()
+//            self.view.removePlaceholderWithAllSubviews()
+            self.view.hidePlaceholderWithAllSubviews()
         }
         else {
             self.placeholderVisible = true

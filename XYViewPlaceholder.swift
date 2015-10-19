@@ -318,7 +318,7 @@ extension UIView
                 placeholder.frameColor = frameColor
                 placeholder.frameWidth = frameWidth
                 
-                placeholder.tag = NSStringFromClass(XYViewPlaceholder.self).hash
+                placeholder.tag = XYViewPlaceholder.self.hash() + self.hashValue
                 placeholder.hidden = !XYViewPlaceholderConfig.defaultConfig.visible
                 
                 self.addSubview(placeholder)
